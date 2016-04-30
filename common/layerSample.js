@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
    * @param {Function}  challenge - Layer Client challenge function
    */
   window.layerSample = {
-    appId: null,
+    appId: 'layer:///apps/staging/47a876ae-d56a-11e5-a6ef-50e81500048b',
     users: USERS,
     user: USERS[0],
     challenge: function(nonce, callback) {
